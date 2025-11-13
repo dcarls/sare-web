@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S.A.R.E - Agendamento de Refeições</title>
+    <!-- Use Tailwind via CDN as fallback for instant styling (still works with local build) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brandGreen: '#1f8a4d',
+              paleGreen: '#e9fff3',
+              brandRed: '#e51b23'
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-paleGreen min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "title": "JANTAR",
+      "body": "Arroz, Feij\u00e3o, Macarr\u00e3o, Frango e Salada\\nSuco: Laranja",
+      "reserved": false
+    },
+    {
+      "id": 2,
+      "title": "LANCHE",
+      "body": "P\u00e3o com Ovo\\nSuco: Goiaba",
+      "reserved": false
+    }
+  ],
+  "reservations": []
+}
